@@ -9,6 +9,7 @@ Y="\e[33m"
 N="\e[0m"
 SCRIPT_DIR=$PWD
 START_TIME=$(date +%s)
+mkdir -p $LOGS_FOLDER
 
 echo "$(date "+%Y-%m-%d $H:%M:%S") Script started exectuion at : $(date)" | tee -a $LOGS_FILE   
 
